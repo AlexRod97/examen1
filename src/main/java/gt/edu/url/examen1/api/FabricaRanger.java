@@ -1,5 +1,4 @@
 package gt.edu.url.examen1.api;
-
 import gt.edu.url.examen1.impl.Monstruo;
 
 /**

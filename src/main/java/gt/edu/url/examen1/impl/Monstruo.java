@@ -19,6 +19,7 @@ public class Monstruo implements FabricaRanger {
 	public String getElemento() {
 		return elemento;
 	}	
+	
 	public void setElemento(String element) {
 		this.elemento = element; 
 	}
@@ -50,9 +51,10 @@ public class Monstruo implements FabricaRanger {
 	public void golpear() {
 		System.out.println("Soy " + nombre + " monstruo y estoy golpeando");
 	}
+	
 	@Override
 	public void hacerAlgo() {
-		// TODO Auto-generated method stub
+		System.out.println("Soy un monstruo y hago algo"); 
 		
 	}
 	@Override

@@ -13,15 +13,13 @@ public class Algorithm implements Chudnovsky {
 		double resultado = 0.0; 
 		
 		for(int i = 0; i < cantidadDigitos; i++) {
-			numerador =  numero.factorial(6*cantidadDigitos) * (13591409 + 545140134 * cantidadDigitos); 
-			denominador = numero.factorial(3*cantidadDigitos) *Math.pow(numero.factorial(cantidadDigitos), 3) * Math.pow(-640320,3*cantidadDigitos);
-			resultado = resultado + (numerador/denominador);  			
+			resultado =  (numero.factorial(6*cantidadDigitos) * (13591409 + 545140134 * cantidadDigitos)) / (numero.factorial(3*cantidadDigitos) *Math.pow(numero.factorial(cantidadDigitos), 3) * Math.pow(-640320,3*cantidadDigitos)); 
 		}	
 		resultado = resultado*12;
 		resultado = 1/resultado; 
 		
 		return resultado;
-	}
 	
-
+	
+	}
 }

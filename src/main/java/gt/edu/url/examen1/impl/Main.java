@@ -14,15 +14,13 @@ public class Main {
     	
     	Algorithm algoritmoChudnovsky = new Algorithm(); 
     	int k = 0;
-    	double resultado = 0.0; 
+    	double resultado = 0.0;    
     	
-    	
-    	
-       /* System.out.println("Ingrese la cantidad de digitos a operar para pi");
+        System.out.println("Ingrese la cantidad de digitos a operar para pi");
         k = read.nextInt(); 
         resultado = algoritmoChudnovsky.calcularPi(k); 
         System.out.println(resultado); 
-        read.close();*/
+        read.close();
     }
     
 }
