@@ -2,7 +2,7 @@ package gt.edu.url.examen1.api;
 
 /**
  *
- * @author tuxtor
+ * @author Alexrod97
  */
 public interface Reportero {
     	public String calcularGanador(int a, int b);
